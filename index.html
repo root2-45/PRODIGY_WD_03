@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>⟳ INFINITE LOOP · TIC-TAC-TOE ⟳</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <div class="game-container">
+            <div class="game-panel">
+                <div class="title-section">
+                    <div class="glow-line"></div>
+                    <div class="loop-icon">⟳ ⟳ ⟳</div>
+                    <h1>INFINITE LOOP</h1>
+                    <div class="sub">BREAK THE CYCLE · THREE IN A ROW</div>
+                    <div class="glow-line"></div>
+                </div>
+
+                <div class="mode-bar">
+                    <button class="mode-btn" id="twoPlayerModeBtn">🎮 DUEL MODE</button>
+                    <button class="mode-btn" id="aiModeBtn">🧠 AI ASSAULT</button>
+                </div>
+
+                <div class="status-area" id="gameStatus">
+                    ⚡ X · DEPLOY ⚡
+                </div>
+
+                <div class="board" id="boardGrid">
+                    <!-- JavaScript injects cells -->
+                </div>
+
+                <!-- RESTART BUTTON - NOW VISIBLE -->
+                <button class="reset-btn" id="resetGameBtn">
+                    ⟳  RESTART GAME  ⟳
+                </button>
+                
+                <footer>✧ INFINITE POSSIBILITIES · ZERO DRAWS ✧</footer>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
