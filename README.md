@@ -56,7 +56,6 @@ Duration: June 2026
 
 👩‍💻 Author
 Rutuja Shivaji Shingote
-📧 rutujashingote5@gmail.com
 🌐 GitHub - https://github.com/root2-45
 🔗 LinkedIn - www.linkedin.com/in/rutuja-shingote-00529a371
 
